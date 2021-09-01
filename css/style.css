@@ -9,6 +9,25 @@ img {
     vertical-align: bottom;
 }
 
+button {
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+#blue_button{
+    color: white;
+    background-color: steelblue;
+    border-width: 0;
+}
+
+#white_button{
+    color: lightgray;
+    background-color: rgb(248, 246, 246);
+    border-width: 10px;
+    border: lightgray;
+}
+
 h1 {
     display: inline-block;
     line-height: 70px;
@@ -46,9 +65,34 @@ main {
     margin-bottom: 20px;
 }
 
-.span_colorati {
+.span_editorial {
+    background-color: steelblue;
+}
+
+.span_q1goals {
     background-color: rebeccapurple;
+}
+
+.span_recruiting {
+    background-color: seagreen;
+}
+
+.span_mobile {
+    background-color: orange;
+}
+
+.span_website {
+    background-color: palevioletred;
+}
+
+.span_sales {
+    background-color: olive;
+}
+
+.span_colorati {
     color: white;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 #button_container {
