@@ -1,52 +1,55 @@
-* {
+* {/* Serve per resettare tutte le impostazioni di default del browser */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-header {
+/* Inizio selettori generici dei vari tag */
+header {/* Utilizzato per la spaziatura dell'header */
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
-main {
+
+main {/* Utilizzato per impostare il background, la spaziatura tra containers ed header e il font */
     background-color: lightgrey;
     padding-top: 50px;
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+img { /* Utilizzato per impostarne la grandezza ed allinearla al testo */
     width: 70px;
     vertical-align: bottom;
 }
 
-button {
+button { /* utilizzato per decorare i buttons alllineando il testo e creando gli spigoli tondeggianti */
     text-align: center;
     padding: 5px 7px;
     border-radius: 5px;
 }
 
-
-h1 {
+h1 { /* Utilizzato per impostare la grandezza del titolo e favorirne la centratura verticale */
     display: inline-block;
     line-height: 70px;
     font-weight: 900;
     font-size: 40px;
 }  
+/* Fine selettori generici dei vari tag */
 
-.spaziatura {
+/* Inizio classi */
+.spaziatura {/* Utilizzato per la spaziatura verticale dei vari div all'interno delle section nel main */
     margin-top: 5px;
     margin-bottom: 12px;
 }
 
-.container {
+.container { /* Utilizzato per entrambi i container, sia dei button che delle section */
     background-color: white;
     width: 720px;
     margin: 0 auto;
 }
 
-.sections_container {
+.sections_container { /* Utilizzato per decorare il container con angoli stondati, staccandolo dal container superiore con un margin e attenendosi alle varie spaziature orizzontali e verticali */
     margin-top: 2px;
     padding-top: 40px;
     padding-left: 55px;
@@ -61,17 +64,18 @@ h1 {
     border-bottom-width: 3px;
 }
 
-.section {
+.section { /* Utile per separare ogni section da quella successiva */
     margin-bottom: 20px;
 }
 
-.span_colorati {
+.span_colorati { /* Serve da base a cui applicare solo il background utilizzando un altra classe o id per creare le scritte colorate e contornate nelle varie section */
     color: white;
     padding: 5px;
     border-radius: 8px;
     font-size: 13px;
 }
 
+/* Inizio classi per colorazioni del background dei vari span */
 .span_editorial {
     background-color: steelblue;
 }
@@ -95,9 +99,11 @@ h1 {
 .span_sales {
     background-color: olive;
 }
+/* Fine classi per colorazioni del background dei vari span */
+/* Fine classi */
 
-
-#button_container {
+/* Inizio id */
+#button_container { /* Crea la giusta spaziatura ed il giusto contorno al container dei button */
     padding-top: 20px;
     padding-left: 60px;
     padding-bottom: 15px;
@@ -105,14 +111,15 @@ h1 {
     border-top-right-radius: 7px;
 }
 
-#blue_button{
+#blue_button{/* Dà lo stile al button blu */
     color: white;
     background-color: steelblue;
     border-width: 0;
 }
 
-#white_button{
+#white_button{/* Dà lo stile al button bianco */
     color: lightgray;
     background-color: rgb(248, 246, 246);
     border: 1px solid lightgray;
 }
+/* Fine id */
