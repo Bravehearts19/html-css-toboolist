@@ -4,6 +4,18 @@
     box-sizing: border-box;
   }
 
+header {
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+main {
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 70px;
     vertical-align: bottom;
@@ -15,17 +27,6 @@ button {
     border-radius: 5px;
 }
 
-#blue_button{
-    color: white;
-    background-color: steelblue;
-    border-width: 0;
-}
-
-#white_button{
-    color: lightgray;
-    background-color: rgb(248, 246, 246);
-    border: 1px solid lightgray;
-}
 
 h1 {
     display: inline-block;
@@ -33,19 +34,6 @@ h1 {
     font-weight: 900;
     font-size: 40px;
 }  
-
-header {
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-main {
-    background-color: lightgrey;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
-}
 
 .spaziatura {
     margin-top: 5px;
@@ -77,6 +65,13 @@ main {
     margin-bottom: 20px;
 }
 
+.span_colorati {
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
 .span_editorial {
     background-color: steelblue;
 }
@@ -101,12 +96,6 @@ main {
     background-color: olive;
 }
 
-.span_colorati {
-    color: white;
-    padding: 5px;
-    border-radius: 8px;
-    font-size: 13px;
-}
 
 #button_container {
     padding-top: 20px;
@@ -114,4 +103,16 @@ main {
     padding-bottom: 15px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+}
+
+#blue_button{
+    color: white;
+    background-color: steelblue;
+    border-width: 0;
+}
+
+#white_button{
+    color: lightgray;
+    background-color: rgb(248, 246, 246);
+    border: 1px solid lightgray;
 }
