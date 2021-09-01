@@ -47,6 +47,11 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
+.spaziatura {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
 .container {
     background-color: white;
     width: 720px;
@@ -54,17 +59,18 @@ main {
 }
 
 .sections_container {
+    margin-top: 2px;
     padding-top: 50px;
     padding-left: 55px;
     padding-bottom: 15px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     border-bottom-color: white;
-    border-left-color: white;
-    border-right-color: white;
-    border-top-color: lightgray;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
     border-style: solid;
-    border-width: 3px;
+    border-bottom-width: 3px;
 }
 
 .section {
@@ -99,6 +105,7 @@ main {
     color: white;
     padding: 5px;
     border-radius: 8px;
+    font-size: 13px;
 }
 
 #button_container {
