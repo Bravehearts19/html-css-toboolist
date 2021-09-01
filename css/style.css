@@ -3,4 +3,49 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+img {
+    width: 70px;
+    vertical-align: bottom;
+}
+
+h1 {
+    display: inline-block;
+    line-height: 70px;
+    font-weight: 900;
+    font-size: 40px;
+}  
+
+header {
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+main {
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container {
+    background-color: white;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.section_container {
+    padding-top: 50px;
+    padding-left: 55px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+#button_container {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
