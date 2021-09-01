@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 
+
+<!-- HO FATTO IL MAIN CON DEI DIV CONTENENTI DEGLI SPAN
+     E NON CON UL>LI PERCHE' NON SAPPIAMO ANCORA COME
+     TOGLIERE I CERCHIETTI ALL'INIZIO DI OGNI RIGA CREATI
+     DI DEFAULT DAL BROWSER
+     COMMENTO SCRITTO IL 01/09/2021 -->
+
+     
 <html lang="en">
     <head>
         <title>Toboolist</title>
@@ -13,19 +21,27 @@
 
     <body>
         <header>
+            <!-- Inizio Logo + Titolo -->
             <img src="img/Logo.png" alt="Logo Boolean">
             <h1>Toboolist</h1>
+            <!-- Fine Logo + Titolo -->
         </header>
 
         <main>
+            <!-- Inizio striscia con bottoni -->
             <div class="container" id="button_container">
                 <button type="button" id="blue_button">Add Task</button>
                 <button type="button" id="white_button">Add Section</button>
             </div>
+            <!-- Fine striscia con bottoni -->
 
+            <!-- Inizio sezioni to do list -->
             <div class="container sections_container">
+                <!-- Inizio prima sezione -->
                 <section class="section">
-                    <h2>&#x25BC;New Task</h2>
+                    <h2>&#x25BC;New Task</h2> <!-- Primo titolo -->
+
+                    <!-- Inizio prima riga (prima sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Quarterly Newsletter 
@@ -34,10 +50,15 @@
                             </span>
                         </span>
                     </div>
+                    <!-- Fine prima riga (prima sezione) -->
                 </section>
+                <!-- Fine prima sezione -->
                 
+                <!-- Inizio seconda sezione -->
                 <section class="section">
-                    <h2>&#x25BC;Today</h2>
+                    <h2>&#x25BC;Today</h2> <!-- Secondo titolo -->
+
+                    <!-- Inizio prima riga (seconda sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Recruiting blog post 
@@ -46,7 +67,9 @@
                             </span>
                         </span>
                     </div>
+                    <!-- Fien prima riga (seconda sezione) -->
 
+                    <!-- Inizio seconda riga (seconda sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Mobile app launch 
@@ -55,7 +78,9 @@
                             </span>
                         </span>
                     </div>
+                    <!-- Fine seconda riga (seconda sezione) -->
 
+                    <!-- Inizio terza riga (seconda sezione) -->
                     <div class="spaziatura">
                         <span>
                             ❌ Interview John H. 
@@ -64,7 +89,9 @@
                             </span>
                         </span>
                     </div>
+                    <!-- Fine terza riga (seconda sezione) -->
 
+                    <!-- Inizio quarta riga (seconda sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Summit update to mobile storefronts 
@@ -73,16 +100,23 @@
                             </span>
                         </span>
                     </div>
-                </section>            
-                
+                    <!-- Fine quarta riga (seconda sezione) -->
+                </section>  
+                <!-- Fine seconda sezione-->
+
+                <!-- Inizio terza sezione-->
                 <section class="section">
-                    <h2>&#x25BC;Upcoming</h2>
+                    <h2>&#x25BC;Upcoming</h2> <!-- Terzo titolo -->
+                    
+                    <!-- Inizio prima riga (terza sezione) -->
                     <div class="spaziatura">
                         <span>
                             ❌ Schedule meeting with Alex
                         </span>
                     </div>
+                    <!-- Fine prima riga (terza sezione) -->
 
+                    <!-- Inizio seconda riga (terza sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Homepage refresh 
@@ -91,7 +125,9 @@
                             </span>
                         </span>
                     </div>
-                    
+                    <!-- Fine seconda riga (terza sezione) -->
+
+                    <!-- Inizio terza riga (terza sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Onboard new Sales team members 
@@ -100,7 +136,9 @@
                             </span>
                         </span>
                     </div>
-                    
+                    <!-- Fine terza riga (terza sezione) -->
+
+                    <!-- Inizio quarta riga (terza sezione) -->
                     <div class="spaziatura">
                         <span>
                             ✅ Review editorial calendar 
@@ -109,8 +147,11 @@
                             </span>
                         </span>
                     </div>
+                    <!-- Fine quarta riga (terza sezione) -->
                 </section>
+                <!-- Fine terza sezione -->
             </div>
+            <!-- Fine sezioni to do list -->
         </main>
 
         <footer>
