@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 
-
-<!-- HO FATTO IL MAIN CON DEI DIV CONTENENTI DEGLI SPAN
-     E NON CON UL>LI PERCHE' NON SAPPIAMO ANCORA COME
-     TOGLIERE I CERCHIETTI ALL'INIZIO DI OGNI RIGA CREATI
-     DI DEFAULT DAL BROWSER
-     COMMENTO SCRITTO IL 01/09/2021 -->
-
-     
 <html lang="en">
     <head>
         <title>Toboolist</title>
@@ -41,16 +33,18 @@
                 <section class="section">
                     <h2>&#x25BC;New Task</h2> <!-- Primo titolo -->
 
-                    <!-- Inizio prima riga (prima sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Quarterly Newsletter 
-                            <span class="span_colorati span_editorial">
-                                Editorial
+                    <ul  class="list">
+                        <!-- Inizio prima riga (prima sezione) -->
+                        <li>
+                            <span class="spaziatura">
+                                ✅ Quarterly Newsletter 
+                                <span class="span_colorati span_editorial">
+                                    Editorial
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine prima riga (prima sezione) -->
+                        </li>
+                        <!-- Fine prima riga (prima sezione) -->
+                    </ul>
                 </section>
                 <!-- Fine prima sezione -->
                 
@@ -58,49 +52,53 @@
                 <section class="section">
                     <h2>&#x25BC;Today</h2> <!-- Secondo titolo -->
 
-                    <!-- Inizio prima riga (seconda sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Recruiting blog post 
-                            <span class="span_colorati span_editorial">
-                                Editorial
+                    <ul class="list">
+                        <!-- Inizio prima riga (seconda sezione) -->
+                        <li class="spaziatura">
+                            <span>
+                                ✅ Recruiting blog post 
+                                <span class="span_colorati span_editorial">
+                                    Editorial
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fien prima riga (seconda sezione) -->
-
-                    <!-- Inizio seconda riga (seconda sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Mobile app launch 
-                            <span class="span_colorati span_q1goals">
-                                Q1 Goals
+                        </li>
+                        <!-- Fine prima riga (seconda sezione) -->
+                        
+                        <!-- Inizio seconda riga (seconda sezione) -->
+                        <li class="spaziatura">
+                            <span>
+                                ✅ Mobile app launch 
+                                <span class="span_colorati span_q1goals">
+                                    Q1 Goals
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine seconda riga (seconda sezione) -->
-
-                    <!-- Inizio terza riga (seconda sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ❌ Interview John H. 
-                            <span class="span_colorati span_recruiting">
-                                Recruiting
+                        </li>
+                         <!-- Fine seconda riga (seconda sezione) -->
+                         
+                         <!-- Inizio terza riga (seconda sezione) -->
+                         <li class="spaziatura">
+                            <div class="spaziatura">
+                                <span>
+                                    ❌ Interview John H. 
+                                    <span class="span_colorati span_recruiting">
+                                        Recruiting
+                                    </span>
+                                </span>
+                            </div>
+                        </li>
+                        <!-- Fine terza riga (seconda sezione) -->
+                            
+                        <!-- Inizio quarta riga (seconda sezione) -->
+                        <li class="spaziatura">
+                            <span>
+                                ✅ Summit update to mobile storefronts 
+                                <span class="span_colorati span_mobile">
+                                    Mobile
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine terza riga (seconda sezione) -->
-
-                    <!-- Inizio quarta riga (seconda sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Summit update to mobile storefronts 
-                            <span class="span_colorati span_mobile">
-                                Mobile
-                            </span>
-                        </span>
-                    </div>
-                    <!-- Fine quarta riga (seconda sezione) -->
+                        </li>
+                        <!-- Fine quarta riga (seconda sezione) -->
+                    </ul>
                 </section>  
                 <!-- Fine seconda sezione-->
 
@@ -108,49 +106,51 @@
                 <section class="section">
                     <h2>&#x25BC;Upcoming</h2> <!-- Terzo titolo -->
                     
-                    <!-- Inizio prima riga (terza sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ❌ Schedule meeting with Alex
-                        </span>
-                    </div>
-                    <!-- Fine prima riga (terza sezione) -->
-
-                    <!-- Inizio seconda riga (terza sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Homepage refresh 
-                            <span class="span_colorati span_website">
-                                Website
+                    <ul class="list">
+                        <!-- Inizio prima riga (terza sezione) -->
+                        <li  class="spaziatura">
+                            <span>
+                                ❌ Schedule meeting with Alex
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine seconda riga (terza sezione) -->
-
-                    <!-- Inizio terza riga (terza sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Onboard new Sales team members 
-                            <span class="span_colorati span_sales">
-                                Sales
+                        </li>
+                        <!-- Fine prima riga (terza sezione) -->
+                        
+                        <!-- Inizio seconda riga (terza sezione) -->
+                        <li  class="spaziatura">
+                            <span>
+                                ✅ Homepage refresh 
+                                <span class="span_colorati span_website">
+                                    Website
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine terza riga (terza sezione) -->
-
-                    <!-- Inizio quarta riga (terza sezione) -->
-                    <div class="spaziatura">
-                        <span>
-                            ✅ Review editorial calendar 
-                            <span class="span_colorati span_editorial">
-                                Editorial
+                        </li>
+                        <!-- Fine seconda riga (terza sezione) -->
+                        
+                        <!-- Inizio terza riga (terza sezione) -->
+                        <li  class="spaziatura">
+                            <span>
+                                ✅ Onboard new Sales team members 
+                                <span class="span_colorati span_sales">
+                                    Sales
+                                </span>
                             </span>
-                        </span>
-                    </div>
-                    <!-- Fine quarta riga (terza sezione) -->
+                        </li>
+                        <!-- Fine terza riga (terza sezione) -->
+                        
+                        <!-- Inizio quarta riga (terza sezione) -->
+                        <li  class="spaziatura">
+                            <span>
+                                ✅ Review editorial calendar 
+                                <span class="span_colorati span_editorial">
+                                    Editorial
+                                </span>
+                            </span>
+                        </li>
+                        <!-- Fine quarta riga (terza sezione) -->
+                    </ul>
                 </section>
                 <!-- Fine terza sezione -->
-            </div>
+
             <!-- Fine sezioni to do list -->
         </main>
 

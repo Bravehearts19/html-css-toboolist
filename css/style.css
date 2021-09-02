@@ -43,6 +43,10 @@ h1 { /* Utilizzato per impostare la grandezza del titolo e favorirne la centratu
     margin-bottom: 12px;
 }
 
+.list { /* Per non far comparire i cerchietti ad ogni elemento */
+    list-style-type: none;
+}
+
 .container { /* Utilizzato per entrambi i container, sia dei button che delle section */
     background-color: white;
     width: 720px;
